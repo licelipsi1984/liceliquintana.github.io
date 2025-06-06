@@ -1,0 +1,83 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #A97C65;
+  margin: 0;
+  padding: 0;
+  color: #fff8f0;
+}
+
+header {
+  background-color: #C9A66B;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #3e2b23;
+}
+
+.hero img.perfil {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 5px solid #fff8f0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.slogan {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.botao {
+  background-color: #fff8f0;
+  color: #A97C65;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #f0e2d0;
+}
+
+section {
+  padding: 2rem;
+  background-color: #fff8f0;
+  color: #3e2b23;
+}
+
+section h2 {
+  color: #A97C65;
+  border-bottom: 2px solid #C9A66B;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li::before {
+  content: "\2022 ";
+  color: #C9A66B;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+footer {
+  background-color: #3e2b23;
+  text-align: center;
+  padding: 1rem;
+  color: #fff8f0;
+  font-size: 0.9rem;
+}
